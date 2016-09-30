@@ -14,8 +14,41 @@
 		DE7F7C701D5B16370083784A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DE7F7C6E1D5B16370083784A /* Main.storyboard */; };
 		DE7F7C721D5B16370083784A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DE7F7C711D5B16370083784A /* Assets.xcassets */; };
 		DE7F7C751D5B16370083784A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DE7F7C731D5B16370083784A /* LaunchScreen.storyboard */; };
+		DEC9D06F1D9EBA3600CE7C48 /* YXJSilderBar ios.h in Headers */ = {isa = PBXBuildFile; fileRef = DEC9D06D1D9EBA3600CE7C48 /* YXJSilderBar ios.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		DEC9D0721D9EBA3600CE7C48 /* YXJSlideBar.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DEC9D06B1D9EBA3500CE7C48 /* YXJSlideBar.framework */; };
+		DEC9D0731D9EBA3600CE7C48 /* YXJSlideBar.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = DEC9D06B1D9EBA3500CE7C48 /* YXJSlideBar.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		DEC9D07E1D9EBA4100CE7C48 /* YXJSlideBar.h in Headers */ = {isa = PBXBuildFile; fileRef = DEC9D0781D9EBA4100CE7C48 /* YXJSlideBar.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		DEC9D07F1D9EBA4100CE7C48 /* YXJSlideBar.m in Sources */ = {isa = PBXBuildFile; fileRef = DEC9D0791D9EBA4100CE7C48 /* YXJSlideBar.m */; };
+		DEC9D0801D9EBA4100CE7C48 /* YXJSlideBarItem.h in Headers */ = {isa = PBXBuildFile; fileRef = DEC9D07A1D9EBA4100CE7C48 /* YXJSlideBarItem.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		DEC9D0811D9EBA4100CE7C48 /* YXJSlideBarItem.m in Sources */ = {isa = PBXBuildFile; fileRef = DEC9D07B1D9EBA4100CE7C48 /* YXJSlideBarItem.m */; };
+		DEC9D0821D9EBA4100CE7C48 /* YXJSlideContentView.h in Headers */ = {isa = PBXBuildFile; fileRef = DEC9D07C1D9EBA4100CE7C48 /* YXJSlideContentView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		DEC9D0831D9EBA4100CE7C48 /* YXJSlideContentView.m in Sources */ = {isa = PBXBuildFile; fileRef = DEC9D07D1D9EBA4100CE7C48 /* YXJSlideContentView.m */; };
 		DEE3BCD01D5B27D1005A2D4C /* ViewController1.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEE3BCCF1D5B27D1005A2D4C /* ViewController1.swift */; };
 /* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		DEC9D0701D9EBA3600CE7C48 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DE7F7C5F1D5B16370083784A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DEC9D06A1D9EBA3500CE7C48;
+			remoteInfo = "YXJSilderBar ios";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		DEC9D0771D9EBA3600CE7C48 /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				DEC9D0731D9EBA3600CE7C48 /* YXJSlideBar.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
 		78363CEB30B48C8D90127D72 /* Pods-YXJSlideBarTest.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-YXJSlideBarTest.debug.xcconfig"; path = "Pods/Target Support Files/Pods-YXJSlideBarTest/Pods-YXJSlideBarTest.debug.xcconfig"; sourceTree = "<group>"; };
@@ -29,6 +62,15 @@
 		DE7F7C711D5B16370083784A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		DE7F7C741D5B16370083784A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		DE7F7C761D5B16370083784A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DEC9D06B1D9EBA3500CE7C48 /* YXJSlideBar.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = YXJSlideBar.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		DEC9D06D1D9EBA3600CE7C48 /* YXJSilderBar ios.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "YXJSilderBar ios.h"; sourceTree = "<group>"; };
+		DEC9D06E1D9EBA3600CE7C48 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DEC9D0781D9EBA4100CE7C48 /* YXJSlideBar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = YXJSlideBar.h; path = ../../Pod/YXJSlideBar.h; sourceTree = "<group>"; };
+		DEC9D0791D9EBA4100CE7C48 /* YXJSlideBar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = YXJSlideBar.m; path = ../../Pod/YXJSlideBar.m; sourceTree = "<group>"; };
+		DEC9D07A1D9EBA4100CE7C48 /* YXJSlideBarItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = YXJSlideBarItem.h; path = ../../Pod/YXJSlideBarItem.h; sourceTree = "<group>"; };
+		DEC9D07B1D9EBA4100CE7C48 /* YXJSlideBarItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = YXJSlideBarItem.m; path = ../../Pod/YXJSlideBarItem.m; sourceTree = "<group>"; };
+		DEC9D07C1D9EBA4100CE7C48 /* YXJSlideContentView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = YXJSlideContentView.h; path = ../../Pod/YXJSlideContentView.h; sourceTree = "<group>"; };
+		DEC9D07D1D9EBA4100CE7C48 /* YXJSlideContentView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = YXJSlideContentView.m; path = ../../Pod/YXJSlideContentView.m; sourceTree = "<group>"; };
 		DEE3BCCF1D5B27D1005A2D4C /* ViewController1.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewController1.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -37,7 +79,15 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DEC9D0721D9EBA3600CE7C48 /* YXJSlideBar.framework in Frameworks */,
 				677A2DC8DC82CB90AA20FFB4 /* Pods_YXJSlideBarTest.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DEC9D0671D9EBA3500CE7C48 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -65,6 +115,7 @@
 			isa = PBXGroup;
 			children = (
 				DE7F7C691D5B16370083784A /* YXJSlideBar */,
+				DEC9D06C1D9EBA3500CE7C48 /* YXJSilderBar ios */,
 				DE7F7C681D5B16370083784A /* Products */,
 				CD7C5F5ED8EF3243FCCFE768 /* Pods */,
 				5D14C62DA3B2EDB0DB430615 /* Frameworks */,
@@ -75,6 +126,7 @@
 			isa = PBXGroup;
 			children = (
 				DE7F7C671D5B16370083784A /* YXJSlideBarTest.app */,
+				DEC9D06B1D9EBA3500CE7C48 /* YXJSlideBar.framework */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -94,7 +146,36 @@
 			path = YXJSlideBar;
 			sourceTree = "<group>";
 		};
+		DEC9D06C1D9EBA3500CE7C48 /* YXJSilderBar ios */ = {
+			isa = PBXGroup;
+			children = (
+				DEC9D06D1D9EBA3600CE7C48 /* YXJSilderBar ios.h */,
+				DEC9D0781D9EBA4100CE7C48 /* YXJSlideBar.h */,
+				DEC9D0791D9EBA4100CE7C48 /* YXJSlideBar.m */,
+				DEC9D07A1D9EBA4100CE7C48 /* YXJSlideBarItem.h */,
+				DEC9D07B1D9EBA4100CE7C48 /* YXJSlideBarItem.m */,
+				DEC9D07C1D9EBA4100CE7C48 /* YXJSlideContentView.h */,
+				DEC9D07D1D9EBA4100CE7C48 /* YXJSlideContentView.m */,
+				DEC9D06E1D9EBA3600CE7C48 /* Info.plist */,
+			);
+			path = "YXJSilderBar ios";
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		DEC9D0681D9EBA3500CE7C48 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DEC9D07E1D9EBA4100CE7C48 /* YXJSlideBar.h in Headers */,
+				DEC9D0821D9EBA4100CE7C48 /* YXJSlideContentView.h in Headers */,
+				DEC9D06F1D9EBA3600CE7C48 /* YXJSilderBar ios.h in Headers */,
+				DEC9D0801D9EBA4100CE7C48 /* YXJSlideBarItem.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
 		DE7F7C661D5B16370083784A /* YXJSlideBarTest */ = {
@@ -107,15 +188,35 @@
 				DE7F7C651D5B16370083784A /* Resources */,
 				4F346D3300C0E1AD17286326 /* [CP] Embed Pods Frameworks */,
 				DAEC068A5AD691E14DBD01A4 /* [CP] Copy Pods Resources */,
+				DEC9D0771D9EBA3600CE7C48 /* Embed Frameworks */,
 			);
 			buildRules = (
 			);
 			dependencies = (
+				DEC9D0711D9EBA3600CE7C48 /* PBXTargetDependency */,
 			);
 			name = YXJSlideBarTest;
 			productName = YXJSlideBar;
 			productReference = DE7F7C671D5B16370083784A /* YXJSlideBarTest.app */;
 			productType = "com.apple.product-type.application";
+		};
+		DEC9D06A1D9EBA3500CE7C48 /* YXJSilderBar ios */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DEC9D0761D9EBA3600CE7C48 /* Build configuration list for PBXNativeTarget "YXJSilderBar ios" */;
+			buildPhases = (
+				DEC9D0661D9EBA3500CE7C48 /* Sources */,
+				DEC9D0671D9EBA3500CE7C48 /* Frameworks */,
+				DEC9D0681D9EBA3500CE7C48 /* Headers */,
+				DEC9D0691D9EBA3500CE7C48 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "YXJSilderBar ios";
+			productName = "YXJSilderBar ios";
+			productReference = DEC9D06B1D9EBA3500CE7C48 /* YXJSlideBar.framework */;
+			productType = "com.apple.product-type.framework";
 		};
 /* End PBXNativeTarget section */
 
@@ -124,11 +225,16 @@
 			isa = PBXProject;
 			attributes = {
 				LastSwiftUpdateCheck = 0730;
-				LastUpgradeCheck = 0730;
+				LastUpgradeCheck = 0800;
 				ORGANIZATIONNAME = "袁晓钧";
 				TargetAttributes = {
 					DE7F7C661D5B16370083784A = {
 						CreatedOnToolsVersion = 7.3.1;
+						LastSwiftMigration = 0800;
+					};
+					DEC9D06A1D9EBA3500CE7C48 = {
+						CreatedOnToolsVersion = 8.0;
+						ProvisioningStyle = Automatic;
 					};
 				};
 			};
@@ -146,6 +252,7 @@
 			projectRoot = "";
 			targets = (
 				DE7F7C661D5B16370083784A /* YXJSlideBarTest */,
+				DEC9D06A1D9EBA3500CE7C48 /* YXJSilderBar ios */,
 			);
 		};
 /* End PBXProject section */
@@ -159,6 +266,13 @@
 				DE7F7C721D5B16370083784A /* Assets.xcassets in Resources */,
 				DE19AF851D5B4E8600B3E23F /* YXJSlideBar1.gif in Resources */,
 				DE7F7C701D5B16370083784A /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DEC9D0691D9EBA3500CE7C48 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -223,7 +337,25 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		DEC9D0661D9EBA3500CE7C48 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DEC9D0811D9EBA4100CE7C48 /* YXJSlideBarItem.m in Sources */,
+				DEC9D0831D9EBA4100CE7C48 /* YXJSlideContentView.m in Sources */,
+				DEC9D07F1D9EBA4100CE7C48 /* YXJSlideBar.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		DEC9D0711D9EBA3600CE7C48 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DEC9D06A1D9EBA3500CE7C48 /* YXJSilderBar ios */;
+			targetProxy = DEC9D0701D9EBA3600CE7C48 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
 		DE7F7C6E1D5B16370083784A /* Main.storyboard */ = {
@@ -259,8 +391,10 @@
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_EMPTY_BODY = YES;
 				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
@@ -304,8 +438,10 @@
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_EMPTY_BODY = YES;
 				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
@@ -324,6 +460,7 @@
 				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
 				VALIDATE_PRODUCT = YES;
 			};
 			name = Release;
@@ -337,6 +474,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.YXJ.YXJSlideBar;
 				PRODUCT_NAME = YXJSlideBarTest;
+				SWIFT_VERSION = 3.0;
 			};
 			name = Debug;
 		};
@@ -349,6 +487,60 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.YXJ.YXJSlideBar;
 				PRODUCT_NAME = YXJSlideBarTest;
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		DEC9D0741D9EBA3600CE7C48 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CODE_SIGN_IDENTITY = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "YXJSilderBar ios/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.YXJ.YXJSilderBar-ios";
+				PRODUCT_MODULE_NAME = YXJSlideBar;
+				PRODUCT_NAME = YXJSlideBar;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		DEC9D0751D9EBA3600CE7C48 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CODE_SIGN_IDENTITY = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "YXJSilderBar ios/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.YXJ.YXJSilderBar-ios";
+				PRODUCT_MODULE_NAME = YXJSlideBar;
+				PRODUCT_NAME = YXJSlideBar;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
 			};
 			name = Release;
 		};
@@ -372,6 +564,14 @@
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
+		};
+		DEC9D0761D9EBA3600CE7C48 /* Build configuration list for PBXNativeTarget "YXJSilderBar ios" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DEC9D0741D9EBA3600CE7C48 /* Debug */,
+				DEC9D0751D9EBA3600CE7C48 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
 		};
 /* End XCConfigurationList section */
 	};
